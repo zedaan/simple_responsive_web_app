@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+}
+.container .news-card-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 3rem auto;
+  width: 95%;
+}
+@media screen and (max-width: 600px) {
+  .container .news-card-wrapper {
+    margin: 0 !important;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .container .news-card-wrapper {
+    width: 90% !important;
+  }
+}
