@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-const Card = ({ news: { title, published_date, byline }, media }) => {
+const NewsCard = ({ news: { title, published_date, byline }, media }) => {
   const mediaMetaData = media[0] && media[0]["media-metadata"];
   const newsThumb = mediaMetaData && mediaMetaData[0]?.url;
 
@@ -30,4 +30,4 @@ const Card = ({ news: { title, published_date, byline }, media }) => {
     </div>
   );
 };
-export default Card;
+export default NewsCard;

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import NavBar from "../../Components/NavBar";
-import Card from "../../Components/Card";
+import NewsCard from "../../Components/NewsCard";
 import "./styles.css";
 
 const NYNewsMain = () => {
@@ -38,10 +38,9 @@ const NYNewsMain = () => {
         <div className="loader"> </div>
       ) : (
         <div className="news-card-wrapper">
-          {newsData &&
-            newsData?.result?.map((item, i) => {
-              return <Card news={item} media={item.media} key={i} />;
-            })}
+          {newsData?.result?.map((item, i) => {
+            return <NewsCard news={item} media={item.media} key={i} />;
+          })}
         </div>
       )}
     </div>
