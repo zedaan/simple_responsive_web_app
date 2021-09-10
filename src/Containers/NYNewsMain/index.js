@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import NavBar from "../../Components/NavBar";
-import NewsCard from "../../Components/NewsCard";
+import NewsCard from "../../Components/Card";
 import "./styles.css";
 
 const NYNewsMain = () => {

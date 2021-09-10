@@ -8,10 +8,18 @@
   margin: 3rem auto;
   width: 95%;
 }
+.container .news-card-wrapper::after {
+  content: "";
+  margin-left: 31%;
+}
 @media screen and (max-width: 600px) {
   .container .news-card-wrapper {
     margin: 0 !important;
     width: 100%;
+  }
+  .container .news-card-wrapper::after {
+    content: "";
+    margin-left: unset;
   }
 }
 @media screen and (min-width: 1920px) {
