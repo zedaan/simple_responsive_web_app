@@ -71,7 +71,6 @@
   float: right;
   color: #6c6969;
   font-size: 0.8rem;
-  margin-top: 0.2rem;
 }
 .card-content .news-wrapper .news-byline .news-date .clander-icon {
   font-size: 0.8rem;
@@ -93,7 +92,6 @@
     font-size: 0.7rem;
   }
 }
-
 @media screen and (max-width: 1024px) {
   .card-content {
     flex-basis: 43%;
