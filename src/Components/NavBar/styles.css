@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 4rem;
+  padding: 0 3rem;
   flex-basis: 100%;
 }
 .navbar-container .navbar-content .heading-text {
@@ -131,6 +131,11 @@ input[type="text"]:focus {
   }
   .navbar-container .navbar-content .heading-text h3 {
     font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .navbar-container .navbar-content {
+    padding: 0 2rem !important;
   }
 }
 @media screen and (min-width: 1920px) {
