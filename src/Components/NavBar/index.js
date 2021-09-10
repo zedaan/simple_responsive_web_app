@@ -48,8 +48,8 @@ const NavBar = () => {
           {isMenuOpen && (
             <div className="navbar-links">
               <ul>
-                {links?.map((item) => (
-                  <li>
+                {links?.map((item, i) => (
+                  <li key={i}>
                     <a href={item.link}>{item.title}</a>
                   </li>
                 ))}

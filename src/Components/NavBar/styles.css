@@ -33,6 +33,7 @@
   width: 10rem;
   height: 55vh;
   z-index: 1;
+  border-radius: 3px;
   box-shadow: rgb(142 144 145) 0px 0px 3px;
 }
 .navbar-container .navbar-content .navbar-toggle .navbar-links ul {
@@ -70,6 +71,8 @@
 }
 
 .navbar-container .navbar-content .navbar-items .navbar-search {
+  display: flex;
+  align-items: center;
 }
 .navbar-container .navbar-content .navbar-items .navbar-search .search-input {
   margin-right: 0.3rem;
@@ -78,7 +81,7 @@
   color: rgb(102, 102, 102);
   font-size: 11px;
   padding: 0.3rem;
-  border-radius: 3px;
+  border-radius: 0 3px 3px 0;
 }
 .navbar-container
   .navbar-content
@@ -100,9 +103,11 @@ input[type="text"]:focus {
   display: block;
   cursor: pointer;
 }
-.navbar-container .navbar-content .navbar-items .navbar-search .icon {
+.navbar-container .navbar-content .navbar-search .icon {
   color: #fff;
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 .navbar-container .navbar-content .navbar-items-inactive {
   color: #fff;
@@ -116,7 +121,7 @@ input[type="text"]:focus {
     height: 3.3rem;
   }
   .navbar-container .navbar-content .navbar-items .navbar-search .search-input {
-    width: 83px !important;
+    width: 100% !important;
   }
   .navbar-container .navbar-content .navbar-items .navbar-links {
     display: none;
