@@ -18,10 +18,7 @@ const NewsCard = ({ news: { title, published_date, byline }, media }) => {
           <h5>
             {byline}
             <span className="news-date">
-              <i
-                className="fas fa-calendar-day"
-                style={{ marginRight: "0.3rem", fontSize: "0.9rem" }}
-              ></i>
+              <i className="fas fa-calendar-day clander-icon"></i>
               {published_date}
             </span>
           </h5>
