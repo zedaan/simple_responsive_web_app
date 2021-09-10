@@ -60,6 +60,7 @@
   color: #7d7a7a;
   margin-bottom: 0.5rem;
   word-break: break-word;
+  line-height: 1.3rem;
 }
 .card-content .news-wrapper .news-byline {
   display: flex;
@@ -90,6 +91,9 @@
   }
   .card-content .news-wrapper .news-byline .news-date .clander-icon {
     font-size: 0.7rem;
+  }
+  .card-content .news-wrapper .news-byline h5 {
+    line-height: 1.3rem;
   }
 }
 @media screen and (max-width: 1024px) {
